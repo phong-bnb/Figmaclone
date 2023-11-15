@@ -13,7 +13,8 @@ export const theme = {
     padding: {
       '50px': '50px',
       leftmin:'14px',
-      table:'640px'
+      table:'640px',
+      pright:"19rem"
     },
     width:{
       widthtb:"640px"
