@@ -1,4 +1,3 @@
-import Note from "./recently/note";
 function Recently() {
   return (
     <>
