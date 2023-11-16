@@ -5,8 +5,7 @@ import SiderBar from "../SiderBar/SiderBar";
 function Content() {
   return (
     <> 
-   <div className="w-[1197px]">
-    
+   <div className="md:w-[1190px]">
    <div className="pl-50px">
    <SiderBar/>
    <svg width="640" height="62" viewBox="0 0 640 62" fill="none" xmlns="http://www.w3.org/2000/svg">

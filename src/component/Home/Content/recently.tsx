@@ -39,7 +39,7 @@ function Recently() {
             </div>
           </div>
         </div>
-        <div className="overflow-hidden border divide-solid pl-4  w-[427px] pr-4 h-[424px] rounded-xl">
+        <div className=" overflow-hidden border divide-solid pl-4  w-[427px] pr-4 h-[424px] rounded-xl">
           <div className="flex flex-col gap-2 w-[427px]">
             <div className="flex pt-4 gap-4">
               <h1 className="font-semibold text-lg pl-2 pr-[50px]">

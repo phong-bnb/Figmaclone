@@ -5,7 +5,6 @@ import { DatePicker, Space } from "antd";
 
 dayjs.extend(customParseFormat);
 
-const { RangePicker } = DatePicker;
 
 /** Manually entering any of the following formats will perform date parsing */
 const dateFormatList = ["DD/MM/YYYY"];
