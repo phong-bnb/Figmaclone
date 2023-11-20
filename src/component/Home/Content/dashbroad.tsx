@@ -2,8 +2,8 @@ function Dashbroard() {
   return (
     <>
    
-      <div className="flex flex-col gap-4">
-        <div className="flex">
+      <div className="md:flex md:flex-col gap-4">
+        <div className="md:flex">
           <svg
             width="204"
             height="136"
@@ -103,7 +103,7 @@ function Dashbroard() {
             </svg>
           </div>
         </div>
-        <div className="flex gap-4">
+        <div className="md:flex md:gap-4">
           <div>
             <svg
               width="312"

@@ -1,7 +1,7 @@
 function SiderBar() {
   return (
-    <div className="flex justify-between pr-[50px] gap-10">
-      <div className="flex h-[90px]  justify-between items-center relative">
+    <div className="md:flex justify-between md:pr-[50px] gap-10">
+      <div className="md:flex md:h-[90px]  justify-between items-center relative">
         <input
           type="text"
           name="price"
@@ -35,7 +35,7 @@ function SiderBar() {
           </svg>
         </div>
       </div>
-      <div className="flex w-[311px] h-[90px] gap-6 pl-12 items-center">
+      <div className="flex w-[311px] md:h-[90px] gap-6 md:pl-12 items-center">
         <svg
           width="25"
           height="24"

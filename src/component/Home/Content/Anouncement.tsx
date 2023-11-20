@@ -2,10 +2,10 @@ import DateTele from "../../date";
 function Anouncement() {
   return (
     <>
-      <div className="flex flex-col border divide-solid gap-2 w-widthtb rounded-xl">
-        <div className="flex flex-col pl-5 gap-2 w-widthtb">
-        <div className=" flex pt-4">
-          <h1 className="font-semibold text-lg pl-5 pr-pright">Announcement</h1>
+      <div className="md:flex md:flex-col border divide-solid gap-2 w-widthtb rounded-xl">
+        <div className="md:flex md:flex-col md:pl-5 gap-2 md:w-widthtb">
+        <div className=" md:flex pt-4 gap-6">
+          <h1 className="pl-3 font-semibold pr-pright">Announcement</h1>
            <DateTele/>
         </div>
         <svg

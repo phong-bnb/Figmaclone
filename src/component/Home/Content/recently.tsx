@@ -39,16 +39,17 @@ function Recently() {
             </div>
           </div>
         </div>
-        <div className=" overflow-hidden border divide-solid pl-4  w-[427px] pr-4 h-[424px] rounded-xl">
-          <div className="flex flex-col gap-2 w-[427px]">
-            <div className="flex pt-4 gap-4">
-              <h1 className="font-semibold text-lg pl-2 pr-[50px]">
+        <div className="relative overflow-hidden border hover:overflow-auto divide-solid w-[427px] pr-4 h-[428px] rounded-xl">
+          <div className="md:flex md:flex-col gap-2 w-[427px]">
+            <div className="md:flex pt-4 gap-4">
+              <h1 className="font-semibold text-lg md:pl-4 md:pr-[50px]">
                 Upcoming Schedule
               </h1>
               <DateTele />
             </div>
           </div>
-          <div className="flex flex-col gap-3">
+          <div className="md:absolute pl-4 md:flex md:flex-col gap-3" >
+          <div>
             <p className="text-graytext">Priority</p>
             <svg
               width="387"
@@ -251,10 +252,11 @@ function Recently() {
               stroke-width="0.5"
             />
           </svg>
-          <div className="overflow-hidden pr-72 w-[500px] h-[20px] bg-current">
-          <h1>đsfsdfsf</h1>
+          </div>
+          <div className=" md:flex md:flex-col relative md:mt-[340px] md:text-center bg-[#ffffff]   md:h-[100px]">
+          <h1 className="text-[#ff5151] font-semibold md:pt-1">Creat a New Schedule</h1>
         </div>
-        </div>
+        </div>   
       </div>
     </>
   );
