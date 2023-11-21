@@ -8,7 +8,8 @@ export const theme = {
       pink: "#FF5151",
       pinkc:"#fdebf9",
       graytext:"#686868",
-      violetpink:"#fdebf9"
+      violetpink:"#fdebf9",
+      hihi:"#161E54"
     },
     padding: {
       '50px': '50px',
