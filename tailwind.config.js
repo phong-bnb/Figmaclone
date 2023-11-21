@@ -18,7 +18,7 @@ export const theme = {
       '50px': '50px',
       leftmin:'14px',
       table:'640px',
-      pright:"19rem"
+      pright:"18rem"
     },
     width:{
       widthtb:"640px"

@@ -21,7 +21,7 @@ function Navbar() {
       </div>
       <button
         onClick={toggleMobileMenu}
-        className="lg:hidden h-5 bg-slate-500"
+        className="lg:hidden h-5 pt-2"
       >
          <MenuOutlined />
       </button>
