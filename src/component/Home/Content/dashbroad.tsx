@@ -1,28 +1,28 @@
 function Dashbroard() {
   return (
     <>
-      <div className="flex flex-col md:flex-row gap-4 md:gap-4">
-        <div className=" flex flex-col justify-content gap-4 align-items bg-bg1 md:w-[204px] h-[136px]  pl-[20px] pt-[12px] pb-[12px] rounded-md">
+      <div className="flex flex-col md:flex-row lg:w-[640px] sm:w-[220px] gap-4 mb-[20px] md:gap-4">
+        <div className=" flex flex-col justify-content gap-4 align-items bg-bg1 w-[360px]  h-[136px]  pl-[20px] pt-[12px] pb-[12px] rounded-md">
           <h1 className="font-semibold">Avaiable Position</h1>
           <h1 className="font-semibold text-4xl">24</h1>
           <p className="text-[#FF5151]">4 Urgently needed</p>
         </div>
-        <div className="flex flex-col justify-content gap-4 align-items bg-bg2 md:w-[204px] h-[136px] pl-[20px] pt-[12px] pb-[12px] rounded-md">
+        <div className="flex flex-col justify-content gap-4 align-items bg-bg2 w-[360px]  h-[136px] pl-[20px] pt-[12px] pb-[12px] rounded-md">
           <h1 className="font-semibold">Job Open</h1>
           <h1 className="font-semibold text-4xl">10</h1>
           <p className="text-[##3786F1]">4 Urgently needed</p>
         </div>
-        <div className="flex flex-col justify-content gap-4 align-items bg-bg3 md:w-[204px] h-[136px] pl-[20px] pt-[12px] pb-[12px] rounded-md">
+        <div className="flex flex-col justify-content gap-4 align-items bg-bg3 w-[360px] h-[136px] pr-[12px] pl-[20px] pt-[12px] pb-[12px] rounded-md">
           <h1 className="font-semibold ">Avaiable Position</h1>
           <h1 className="font-semibold text-4xl">24</h1>
           <p className="text-[##EE61CF]">4 Urgently needed</p>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row gap-4 md:gap-4">
-        <div className="flex gap-[15px] md:gap-[15px] lg:gap-[40px] md:w-[310px] h-[190px] p-[20px] border-[1px] lg:w-[370px] rounded-md">
-          <div className="flex flex-col  gap-[15px]">
-            <h1 className="font-semibold text-lg">Total Employees</h1>
-            <h1 className="font-semibold text-3xl">216</h1>
+      <div className="flex flex-col md:flex-row gap-[23px] w-[420px] lg:gap-4">
+      <div className="flex w-[360px] h-[190px] gap-[23px] p-[20px] xl:w-[420px] border-[1px] rounded-md">
+          <div className="flex flex-col gap-[15px] w-[130px]">
+            <h1 className="font-semibold ">Total Employees</h1>
+            <h1 className="font-semibold text-4xl">216</h1>
             <div className="flex flex-col gap-1">
               <p className="text-xs text-graytext">120 Men</p>
               <p className="text-xs text-graytext">96 Women</p>
@@ -85,10 +85,10 @@ function Dashbroard() {
           </div>
         </div>
 
-        <div className="flex gap-[40px] md:w-[310px] h-[190px] p-[20px] lg:w-[370px] border-[1px] rounded-md">
-          <div className="flex flex-col gap-[15px]">
-            <h1 className="font-semibold text-lg ">Talent Request</h1>
-            <h1 className="font-semibold text-3xl">216</h1>
+        <div className="flex w-[360px] h-[190px] gap-[23px] p-[20px] xl:w-[420px] mb-[20px] border-[1px] rounded-md">
+          <div className="flex flex-col gap-[15px] w-[130px]">
+            <h1 className="font-semibold">Talent Request</h1>
+            <h1 className="font-semibold text-4xl">216</h1>
             <div className="flex flex-col gap-1">
               <p className="text-xs text-graytext">120 Men</p>
               <p className="text-xs text-graytext">96 Women</p>

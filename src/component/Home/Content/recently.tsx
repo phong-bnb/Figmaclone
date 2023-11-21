@@ -3,7 +3,7 @@ import DateTele from "../../date";
 function Recently() {
   return (
     <>
-      <div className="flex flex-col gap-5">
+      <div className="flex flex-col  gap-5">
         <div className="flex flex-col bg-[#121843] w-[427px] h-[258px] rounded-lg ">
           <h1 className="bg-[#1b204a] w-[427px] text-violetpink pt-2 text-xl h-[70px] rounded-t-lg pl-3 ">
             Recently Activity

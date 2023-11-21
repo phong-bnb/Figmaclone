@@ -27,9 +27,17 @@ export const theme = {
       gapl:"50px"
     },
     background:{
-bggray:"##f5f5f5"
-    }
+    bggray:"##f5f5f5"
+    },
+    screens: {
+      'xs': '360px'
+    },
   
   },
+  // screens: {
+  //   'xs': '640px',
+  //   // => @media (min-width: 640px) { ... }
+
+  // },
 };
 export const plugins = [];
