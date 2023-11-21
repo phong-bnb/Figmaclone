@@ -15,7 +15,7 @@ function SiderBar() {
   />
   <SearchOutlined className="absolute inset-y-0 right-3 flex items-center pointer-events-none text-gray-400" />
 </div>
-<div className="flex gap-4">
+<div className="flex gap-4 pr-[50px]">
 <NotificationOutlined/>
 <MessageOutlined />
 <div className="flex gap-4">

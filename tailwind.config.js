@@ -9,7 +9,10 @@ export const theme = {
       pinkc:"#fdebf9",
       graytext:"#686868",
       violetpink:"#fdebf9",
-      hihi:"#161E54"
+      hihi:"#161E54",
+      bg1:"#ffefe7",
+      bg2:"#e8f0fb",
+      bg3:"#fdebf9"
     },
     padding: {
       '50px': '50px',
