@@ -1,4 +1,3 @@
-import React from 'react';
 import dayjs from 'dayjs';
 import { DatePicker } from 'antd';
 import DownOutlined from '@ant-design/icons/DownOutlined';

@@ -30,7 +30,7 @@ export const theme = {
     bggray:"##f5f5f5"
     },
     screens: {
-      'xs': '320px'
+      'xs': '380px'
     },
   
   },
