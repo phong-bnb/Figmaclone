@@ -1,20 +1,18 @@
-import dayjs from "dayjs";
-import customParseFormat from "dayjs/plugin/customParseFormat";
-import { DatePicker, Space } from "antd";
-
-dayjs.extend(customParseFormat);
-
-
-/** Manually entering any of the following formats will perform date parsing */
-const dateFormatList = ["DD/MM/YYYY"];
+import React from 'react';
+import dayjs from 'dayjs';
+import { DatePicker } from 'antd';
+import DownOutlined from '@ant-design/icons/DownOutlined';
 
 const DateTele = () => (
-  <Space direction="vertical" size={12}>
-    <DatePicker
-      defaultValue={dayjs("01/01/2015", dateFormatList[0])}
-      format={dateFormatList}
-    />
-  </Space>
+  <DatePicker
+    format={(value) =>
+      dayjs(value).isSame(new Date(), 'date')
+        ? `Today, ${dayjs(value).format('DD MMM YYYY')}`
+        : dayjs(value).format('DD MMM YYYY')
+    }
+    suffixIcon={<DownOutlined />}
+    style={{ color: '#686868', borderColor: '#EFEFEF', borderRadius: 4 }}
+  />
 );
 
 export default DateTele;

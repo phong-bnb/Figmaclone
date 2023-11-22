@@ -2,12 +2,13 @@ import { MessageOutlined, NotificationOutlined, SearchOutlined } from "@ant-desi
 
 function SiderBar() {
   return (
-    <div className="flex justify-between items-center xl:w-widthtb w-[360px] lg:h-16 md:h-12 h-10 border-b border-gray-500">
+    <div className="flex justify-between items-center xs:w-[300px] lg:w-full  h-10 border-b border-gray-500">
    <div className="lg:hidden">
   <SearchOutlined className="text-gray-400" />
 </div>
 
 <div className="hidden lg:block relative">
+  
   <input
     type="text"
     placeholder="Search"
