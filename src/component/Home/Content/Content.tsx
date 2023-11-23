@@ -5,10 +5,10 @@ import SiderBar from "../SiderBar/SiderBar";
 function Content() {
   return (
     <> 
-   <div className=" md:flex md:flex-col md:w-[1190px] space-between">
-   <div className="md:flex md:flex-col md:pl-50px">
+   <div className=" md:flex md:flex-col md:w-[1150px] xs:w-[427px] space-between">
+   <div className="md:flex md:flex-col md:w-[1150px] md:pl-50px">
    <SiderBar/>
-    <h1 className="font-semibold text-3xl pb-3">Dashboard</h1>
+    <h1 className="font-semibold text-3xl pb-3 xs:w-[360px]">Dashboard</h1>
    </div>
       <div className="md:flex xs:gap-8 gap-[30px]">
         <div className="md:flex md:flex-col md:pl-50px gap-6">

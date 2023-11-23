@@ -8,7 +8,7 @@ function Recently() {
           <h1 className="bg-[#1b204a] pl-[24px] pt-[10px] pr-[10px] pb-[10px] text-lg text-[#FFF] font-normal rounded-lg">
             Recently Activity
           </h1>
-          <div className=" gap-[6px] flex lg:w-[427px] md:w-[360px] xs:w-[360px] pl-[24px] pr-[63px] flex-col">
+          <div className=" gap-[6px] flex lg:w-[427px] md:w-[360px] xs:w-[320px] pl-[24px] xs:pr-1 pr-[63px] flex-col">
             <p className="text-graytext text-xs pt-6">
               10.40 AM, Fri 10 Sept 2021
             </p>
@@ -77,8 +77,8 @@ function Recently() {
            
           </div>
         </div>
-        <div className="absolute bottom-0 bg-[white] xs:w-[300px] lg:w-[426px]">
-          <h1 className="text-[#FF5151] border divide-solid rounded-es-xl rounded-ee-xl text-center font-semibold ">
+        <div className="absolute bottom-0 bg-[white] xs:w-[300px] lg:w-[427px]">
+          <h1 className="text-[#FF5151] border divide-solid rounded-es-xl rounded-ee-xl p-[10px] text-center font-semibold ">
             See All Announcement
           </h1>
         </div>
