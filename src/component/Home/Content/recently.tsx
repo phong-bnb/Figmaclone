@@ -9,7 +9,7 @@ function Recently() {
             Recently Activity
           </h1>
           <div className="px-[20px]">
-            <div className=" gap-[6px] flex  lg:pl-[24px] xs:px-0 pr-[63px] flex-col">
+            <div className=" gap-[6px] flex   xs:px-0 lg:pr-[50px] flex-col">
               <p className="text-graytext text-xs pt-6">
                 10.40 AM, Fri 10 Sept 2021
               </p>
@@ -34,7 +34,7 @@ function Recently() {
           </div>
         </div>
         <div className="relative lg:flex lg:flex-col border divide-solid lg:gap-2  rounded-xl">
-          <div className="flex flex-col lg:w-[427px] w-full lg:pl-5 lg:pr-5 gap-[10px] xs:pl-5 xs:pr-5">
+          <div className="flex flex-col lg:h-[424px] w-full lg:pl-5 lg:pr-5 gap-[10px] xs:pl-5 xs:pr-5">
             <div className="flex pt-[21px] justify-between lg:gap-10 xs:gap-16 items-center">
               <h1 className="text-base font-medium">Upcoming Schedule</h1>
               <DateTele />
@@ -77,7 +77,7 @@ function Recently() {
               </div>
             </div>
           </div>
-          <div className="absolute bottom-0 bg-[white] xs:w-[300px] lg:w-[427px]">
+          <div className="absolute bottom-0 bg-[white] xs:w-[300px] lg:w-full">
             <h1 className="text-[#FF5151] border divide-solid rounded-es-xl rounded-ee-xl p-[10px] text-center font-semibold ">
               See All Announcement
             </h1>
