@@ -4,7 +4,7 @@ function Anouncement() {
   return (
     <>
       <div className="relative flex flex-col tb:w-full border divide-solid gap-2 mx-5 md:mx-0 rounded-xl">
-        <div className="flex flex-col gap-[17px]  xs:px-[20px] ">
+        <div className="flex flex-col gap-[17px]  xs:px-[20px] w-full ">
           <div className="flex pt-4 justify-between gap-4 w-full items-center">
             <h1 className=" font-semibold ">Announcement</h1>
             <DateTele />

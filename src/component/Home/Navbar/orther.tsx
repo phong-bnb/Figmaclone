@@ -20,7 +20,7 @@ function OrtherOfNavbar() {
                 fill="#B2B2B2"
               />
             </svg>{" "}
-            <h1 className="font-normal text-base text-[#686868]">Department</h1>
+            <h1 className="lg:block md:hidden font-normal text-base text-[#686868]">Department</h1>
           </div>
           <div className=" flex gap-[20px] text-center pt-4 pb-4">
             <svg
@@ -35,7 +35,7 @@ function OrtherOfNavbar() {
                 fill="#B2B2B2"
               />
             </svg>{" "}
-            <h1 className="font-normal text-base text-[#686868]">Department</h1>
+            <h1 className="lg:block md:hidden font-normal text-base text-[#686868]">Department</h1>
           </div>
           </div>
       </div>

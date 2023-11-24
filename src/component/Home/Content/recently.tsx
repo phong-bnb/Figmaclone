@@ -3,12 +3,12 @@ import IconOfChedule from "../../icons/PushandEllipIcon";
 function Recently() {
   return (
     <>
-      <div className="relative lg:flex lg:flex-col rounded-xl xs:flex-col md:flex md:flex-row gap-5 lg:px-0 md:w-full xs:px-[20px]">
-        <div className="flex flex-col bg-[#121843]  rounded-lg ">
+      <div className="relative lg:flex lg:flex-col rounded-xl xs:flex-col md:flex md:flex-row gap-5 lg:px-0 md:w-full xs:w-full xs:px-[20px]">
+        <div className="flex flex-col bg-[#121843] md:w-[250px] lg:w-full  rounded-lg ">
           <h1 className="bg-[#1b204a] pl-[24px] pt-[10px] pr-[10px] pb-[10px] text-lg text-[#FFF] font-normal rounded-lg">
             Recently Activity
           </h1>
-          <div className="px-[20px]">
+          <div className="px-[20px] lg:w-full md:w-[250px]">
             <div className=" gap-[6px] flex   xs:px-0 lg:pr-[50px] flex-col">
               <p className="text-graytext text-xs pt-6">
                 10.40 AM, Fri 10 Sept 2021
@@ -21,7 +21,7 @@ function Recently() {
                 everything is right.
               </p>
             </div>
-            <div className="flex xs:flex-wrap justify-between gap-3 pt-[18px] lg:pr-[14px] px-[20px] xs:px-0 pb-[26px]">
+            <div className="flex flex-row  xs:flex-wrap justify-between gap-3 pt-[18px] lg:pr-[14px] px-[20px] xs:px-0 pb-[26px]">
               <p className="text-[#FFF] text-base text-center pt-1">
                 Today you makes 12 Activity
               </p>
@@ -34,9 +34,9 @@ function Recently() {
           </div>
         </div>
         <div className="relative lg:flex lg:flex-col border divide-solid lg:gap-2  rounded-xl">
-          <div className="flex flex-col lg:h-[400px] w-full lg:pl-5 lg:pr-5 gap-[10px] xs:pl-5 xs:pr-5">
-            <div className="flex pt-[21px] justify-between lg:gap-10 xs:gap-16 items-center">
-              <h1 className="text-base font-medium">Upcoming Schedule</h1>
+          <div className=" flex flex-col lg:h-[400px] overflow-hidden w-full lg:pl-5 lg:pr-5 md:h-[319px] gap-[10px] xs:pl-5 xs:pr-5">
+            <div className="flex pt-[21px] justify-between  xs:gap-16 items-center">
+              <h1 className="text-base font-medium md:w-[250px]">Upcoming Schedule</h1>
               <DateTele />
             </div>
             <div className="flex flex-col gap-[8px] ">
@@ -79,7 +79,7 @@ function Recently() {
               </div>
             </div>
           </div>
-          <div className="absolute bottom-0 bg-[white] xs:w-[300px] lg:w-full">
+          <div className="absolute bottom-0 bg-[white]  w-full">
             <h1 className="text-[#FF5151] border divide-solid rounded-es-xl rounded-ee-xl p-[10px] text-center font-semibold ">
               See All Announcement
             </h1>

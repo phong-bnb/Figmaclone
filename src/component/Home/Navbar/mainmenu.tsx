@@ -1,7 +1,7 @@
 function MainmenuNavbar() {
   return (
     <>
-      <div className=" py-10">
+      <div className=" py-10 md:w-[90px]">
         <div className="flex flex-col py-2 pl-7 ">
         <div className=" flex gap-[20px] text-center pt-4 pb-4">
             {" "}
@@ -17,7 +17,7 @@ function MainmenuNavbar() {
                 fill="#FF5151"
               />
             </svg>{" "}
-            <h1 className="font-normal text-base text-[#686868] text-poppins">DashBroad</h1>
+            <h1 className="lg:block md:hidden  font-normal text-base text-[#686868] text-poppins">DashBroad</h1>
           </div>
 
           <div className=" flex gap-[20px] text-center pt-4 pb-4">
@@ -40,7 +40,7 @@ function MainmenuNavbar() {
                 fill="#B2B2B2"
               />
             </svg>{" "}
-            <h1 className="font-normal text-base text-[#686868]">
+            <h1 className="lg:block md:hidden font-normal text-base text-[#686868]">
               Recruitment
             </h1>
           </div>
@@ -58,7 +58,7 @@ function MainmenuNavbar() {
                 fill="#B2B2B2"
               />
             </svg>{" "}
-            <h1 className="font-normal text-base text-[#686868]">Schedule</h1>
+            <h1 className=" lg:block md:hidden font-normal text-base text-[#686868]">Schedule</h1>
           </div>
 
           <div className=" flex gap-[20px] text-center pt-4 pb-4">
@@ -91,7 +91,7 @@ function MainmenuNavbar() {
               />
               <rect x="6" y="11" width="8" height="7" rx="3" fill="#B2B2B2" />
             </svg>{" "}
-            <h1 className="font-normal text-base text-[#686868]">Employee</h1>
+            <h1 className="lg:block md:hidden font-normal text-base text-[#686868]">Employee</h1>
           </div>
 
           <div className=" flex gap-[20px] text-center pt-4 pb-4">
@@ -107,7 +107,7 @@ function MainmenuNavbar() {
                 fill="#B2B2B2"
               />
             </svg>{" "}
-            <h1 className="font-normal text-base text-[#686868]">Department</h1>
+            <h1 className="lg:block md:hidden font-normal text-base text-[#686868]">Department</h1>
           </div>
 
         </div>

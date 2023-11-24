@@ -1,7 +1,7 @@
 function Dashbroard() {
   return (
     <>
-      <div className="flex flex-col lg:flex-row   px-[20px] gap-4 md:w-full  lg:gap-4 md:grid md:grid-cols-3 md:px-0">
+      <div className="flex flex-col lg:flex-row   px-[20px] gap-4 md:w-full xs:w-full lg:gap-4 md:grid md:grid-cols-3 md:px-0">
         <div className=" flex flex-col justify-content gap-4 align-items w-full bg-bg1 pl-[20px] pt-[12px] pb-[12px] pr-[12px] rounded-lg">
           <h1 className="font-medium text-[#161E54]">Avaiable Position</h1>
           <h1 className="font-medium text-4xl text-[#161E54]">24</h1>
