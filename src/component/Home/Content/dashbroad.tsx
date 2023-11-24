@@ -1,25 +1,25 @@
 function Dashbroard() {
   return (
     <>
-      <div className="flex flex-col lg:flex-row lg:w-[640px] xs:w-[220px] gap-4 lg:gap-4">
-        <div className=" flex flex-col justify-content gap-4 align-items bg-bg1 xs:w-[300px] pl-[20px] pt-[12px] pb-[12px] pr-[12px] rounded-lg">
+      <div className="flex flex-col lg:flex-row lg:w-[640px] px-[20px] gap-4 lg:gap-4 md:grid md:grid-cols-3 md:px-0">
+        <div className=" flex flex-col justify-content gap-4 align-items w-full bg-bg1 pl-[20px] pt-[12px] pb-[12px] pr-[12px] rounded-lg">
           <h1 className="font-medium text-[#161E54]">Avaiable Position</h1>
           <h1 className="font-medium text-4xl text-[#161E54]">24</h1>
           <p className="text-[#FF5151]">4 Urgently needed</p>
         </div>
-        <div className="flex flex-col justify-content gap-4 align-items bg-bg2 xs:w-[300px]  pl-[20px] pt-[12px] pb-[12px] pr-[12px] rounded-lg">
+        <div className="flex flex-col justify-content gap-4 align-items w-full bg-bg2  pl-[20px] pt-[12px] pb-[12px] pr-[12px] rounded-lg">
           <h1 className="font-medium  text-[#161E54]">Job Open</h1>
           <h1 className="font-medium text-4xl text-[#161E54]">10</h1>
           <p className="text-[##3786F1]">4 Urgently needed</p>
         </div>
-        <div className="flex flex-col justify-content gap-4 align-items bg-bg3 xs:w-[300px]  pl-[20px] pt-[12px] pb-[12px] pr-[12px] rounded-lg">
+        <div className="flex flex-col justify-content gap-4 align-items w-full bg-bg3  pl-[20px] pt-[12px] pb-[12px] pr-[12px] rounded-lg">
           <h1 className="font-medium  text-[#161E54]">Avaiable Position</h1>
           <h1 className="font-medium text-4xl text-[#161E54]">24</h1>
           <p className="text-[##EE61CF]">4 Urgently needed</p>
         </div>
       </div>
-      <div className="flex flex-col lg:flex-row gap-[23px] lg:w-[420px] xs:w-[300px] lg:gap-4">
-      <div className="flex gap-[23px] p-[20px] lg:w-[420px] xs:w-[300px] border-[1px] rounded-lg">
+      <div className="flex flex-col lg:flex-row gap-[23px] lg:w-[420px] px-[20px] md:px-0 lg:gap-4">
+        <div className="flex gap-[23px] p-[20px] lg:w-[420px] border-[1px] rounded-lg">
           <div className="flex flex-col gap-[15px] w-[130px] ">
             <h1 className="font-medium ">Total Employees</h1>
             <h1 className="font-medium text-4xl">216</h1>
@@ -85,7 +85,7 @@ function Dashbroard() {
           </div>
         </div>
 
-        <div className="flex gap-[23px] p-[20px] lg:w-[420px] xs:w-[300px] border-[1px] rounded-lg">
+        <div className="flex gap-[23px] p-[20px]  border-[1px] rounded-lg">
           <div className="flex flex-col gap-[15px] w-[130px] ">
             <h1 className="font-medium">Talent Request</h1>
             <h1 className="font-medium text-4xl">216</h1>
