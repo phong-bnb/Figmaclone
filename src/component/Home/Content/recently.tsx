@@ -1,4 +1,3 @@
-import { EllipsisOutlined, PushpinOutlined } from "@ant-design/icons";
 import DateTele from "../../date";
 import IconOfChedule from "../../icons/PushandEllipIcon";
 function Recently() {
