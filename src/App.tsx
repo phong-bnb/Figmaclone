@@ -3,9 +3,9 @@ import Content from './component/Home/Content/Content'
 function App() {
   return (
     <>
-    <div className='flex pr-[50px] space-between '>
+    <div className='flex'>
     <Navbar/>
-    <div className='flex md:flex-col w-screen'>
+    <div className='flex md:flex-col w-full'>
     <Content/>
     </div>
     </div>

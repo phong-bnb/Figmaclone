@@ -4,22 +4,24 @@ import Recently from "./recently";
 import SiderBar from "../SiderBar/SiderBar";
 function Content() {
   return (
-    <> 
-   <div className=" md:flex md:flex-col md:w-[1150px] xs:w-[427px] space-between">
-   <div className="md:flex md:flex-col md:w-[1150px] md:pl-50px">
-   <SiderBar/>
-    <h1 className="font-semibold text-3xl pb-3 xs:w-[360px]">Dashboard</h1>
-   </div>
-      <div className="md:flex xs:gap-8 gap-[30px]">
-        <div className="md:flex md:flex-col md:pl-50px gap-6">
-          <Dashbroard />
-          <Anouncement />
+    <>
+      <div className=" md:flex md:flex-col md:w-[1150px] xs:w-full space-between">
+        <div className="md:flex md:flex-col md:w-[1150px] px-[20px] ">
+          <SiderBar />
+          <h1 className="font-semibold text-3xl pb-3 xs:w-[300px]">
+            Dashboard
+          </h1>
         </div>
-        <div className="flex">
-          <Recently />
+        <div className="md:flex xs:gap-8 gap-[30px]">
+          <div className="flex flex-col md:pl-50px gap-6">
+            <Dashbroard />
+            <Anouncement />
+          </div>
+          <div className="flex">
+            <Recently />
+          </div>
         </div>
       </div>
-   </div>
     </>
   );
 }
