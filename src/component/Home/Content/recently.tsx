@@ -4,7 +4,7 @@ import IconOfChedule from "../../icons/PushandEllipIcon";
 function Recently() {
   return (
     <>
-      <div className="relative flex flex-col rounded-xl gap-5 lg:px-0 xs:px-[20px]">
+      <div className="relative lg:flex lg:flex-col rounded-xl xs:flex-col md:flex md:flex-row gap-5 lg:px-0 md:w-full xs:px-[20px]">
         <div className="flex flex-col bg-[#121843]  rounded-lg ">
           <h1 className="bg-[#1b204a] pl-[24px] pt-[10px] pr-[10px] pb-[10px] text-lg text-[#FFF] font-normal rounded-lg">
             Recently Activity

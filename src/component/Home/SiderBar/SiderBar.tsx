@@ -7,7 +7,7 @@ import {
 
 function SiderBar() {
   return (
-    <div className="flex justify-between items-center xs:w-[300px] lg:w-full  border-b border-gray-300">
+    <div className="flex justify-between items-center xs:w-[300px] lg:w-full tb:w-[768px] tb:h-[61px] border-b border-gray-300">
       <div className="lg:hidden">
         <SearchOutlined className="text-gray-400" />
       </div>
