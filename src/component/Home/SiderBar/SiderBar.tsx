@@ -4,6 +4,7 @@ import {
   MessageFilled,
   SearchOutlined,
 } from "@ant-design/icons";
+import avt from "../../../assets/avt.jpg"
 
 function SiderBar() {
   return (
@@ -29,7 +30,7 @@ function SiderBar() {
         />
         <div className="flex gap-4">
           <img
-            src="./dist\avt.jpg"
+            src={avt}
             alt="avt"
             className="w-[42px] h-[42px] rounded-full"
           />

@@ -34,7 +34,7 @@ function Recently() {
           </div>
         </div>
         <div className="relative lg:flex lg:flex-col border divide-solid lg:gap-2  rounded-xl">
-          <div className="flex flex-col lg:h-[424px] w-full lg:pl-5 lg:pr-5 gap-[10px] xs:pl-5 xs:pr-5">
+          <div className="flex flex-col lg:h-[400px] w-full lg:pl-5 lg:pr-5 gap-[10px] xs:pl-5 xs:pr-5">
             <div className="flex pt-[21px] justify-between lg:gap-10 xs:gap-16 items-center">
               <h1 className="text-base font-medium">Upcoming Schedule</h1>
               <DateTele />
@@ -56,9 +56,11 @@ function Recently() {
               <p className="text-xs text-graytext">Priority</p>
 
               <div className="flex justify-between rounded-lg">
-                <div className=" flex justify-between bg-[#FAFAFA] w-full border-[1px] rounded-lg  gap-[95px] pl-[16px] pr-[16px] pt-[12px] pb-[12px]">
+                <div className=" flex justify-between bg-[#FAFAFA] w-full  border-[1px] rounded-lg  gap-[29px] pl-[16px] pr-[16px] pt-[12px] pb-[12px]">
                   <div className="flex flex-col gap-[6px]">
-                    <h4 className="font-normal">Interview with candidates</h4>
+                    <h4 className="font-normal">
+                      Review candidate applications
+                    </h4>
                     <p className="text-xs text-graytext">Yesterday, 12:30 PM</p>
                   </div>
                   <IconOfChedule />
