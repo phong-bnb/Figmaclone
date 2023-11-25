@@ -18,9 +18,9 @@ function Recently() {
               <p className="text-graytext text-xs pt-6">
                 10.40 AM, Fri 10 Sept 2021
               </p>
-              <h2 className="text-white font-semibold text-lg">
+              <p className="text-white font-semibold text-lg">
                 You Posted a New Job
-              </h2>
+              </p>
               <p className="text-white text-sm">
                 Kindly check the requirements and terms of work and make sure
                 everything is right.
@@ -50,9 +50,9 @@ function Recently() {
               <div className="flex justify-between rounded-lg">
                 <div className=" flex hover:opacity-50 justify-between bg-[#FAFAFA] w-full  border-[1px] rounded-lg  gap-[29px] pl-[16px] pr-[16px] pt-[12px] pb-[12px]">
                   <div className="flex  flex-col gap-[6px]">
-                    <h4 className="font-normal">
+                    <p className="font-normal">
                       Review candidate applications
-                    </h4>
+                    </p>
                     <p className="text-xs text-graytext">Yesterday, 12:30 PM</p>
                   </div>
                   <IconOfChedule />
@@ -63,9 +63,9 @@ function Recently() {
               <div className="flex justify-between rounded-lg">
                 <div className=" flex hover:opacity-50 justify-between bg-[#FAFAFA] w-full  border-[1px] rounded-lg  gap-[29px] pl-[16px] pr-[16px] pt-[12px] pb-[12px]">
                   <div className="flex flex-col gap-[6px]">
-                    <h4 className="font-normal">
-                      Review candidate applications
-                    </h4>
+                    <p className="font-normal">
+                    Short meeting with product designer from IT Departement
+                    </p>
                     <p className="text-xs text-graytext">Yesterday, 12:30 PM</p>
                   </div>
                   <IconOfChedule />
@@ -74,9 +74,9 @@ function Recently() {
               <div className="flex justify-between rounded-lg">
                 <div className=" flex hover:opacity-50 justify-between bg-[#FAFAFA] w-full  border-[1px] rounded-lg  gap-[29px] pl-[16px] pr-[16px] pt-[12px] pb-[12px]">
                   <div className="flex flex-col gap-[6px]">
-                    <h4 className="font-normal">
+                    <p className="font-normal">
                       Short meeting with product designer from IT Departement
-                    </h4>
+                    </p>
                     <p className="text-xs text-graytext">Yesterday, 12:30 PM</p>
                   </div>
                   <IconOfChedule />
@@ -88,9 +88,9 @@ function Recently() {
                 <div className="flex justify-between rounded-lg">
                 <div className=" flex hover:opacity-50 justify-between bg-[#FAFAFA] w-full  border-[1px] rounded-lg  gap-[29px] pl-[16px] pr-[16px] pt-[12px] pb-[12px]">
                   <div className="flex flex-col gap-[6px]">
-                    <h4 className="font-normal">
+                    <p className="font-normal">
                       Short meeting with product designer from IT Departement
-                    </h4>
+                    </p>
                     <p className="text-xs text-graytext">Yesterday, 12:30 PM</p>
                   </div>
                   <IconOfChedule />
@@ -99,9 +99,9 @@ function Recently() {
               <div className="flex justify-between rounded-lg">
                 <div className=" flex hover:opacity-50 justify-between bg-[#FAFAFA] w-full  border-[1px] rounded-lg  gap-[29px] pl-[16px] pr-[16px] pt-[12px] pb-[12px]">
                   <div className="flex flex-col gap-[6px]">
-                    <h4 className="font-normal">
+                    <p className="font-normal">
                       Short meeting with product designer from IT Departement
-                    </h4>
+                    </p>
                     <p className="text-xs text-graytext">Yesterday, 12:30 PM</p>
                   </div>
                   <IconOfChedule />
