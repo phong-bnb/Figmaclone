@@ -27,12 +27,16 @@ function SiderBar() {
         <SearchOutlined className="absolute  inset-y-0 right-5 flex items-center pointer-events-none text-gray-400" />
       </div>
       <div className="flex gap-[20px]">
+        <button>
         <BellFilled
           style={{ color: "#686868", borderColor: "#EFEFEF", borderRadius: 4 }}
         />
+        </button>
+        <button>
         <MessageFilled
           style={{ color: "#686868", borderColor: "#EFEFEF", borderRadius: 4 }}
         />
+        </button>
         <div className="flex gap-4 xs:pb-2 pt-4">
           <img
             src={avt}
@@ -40,10 +44,10 @@ function SiderBar() {
             className="w-[42px] h-[42px] rounded-full"
           />
           <div className="flex gap-[4px]">
-            <h3 className="font-medium text-[#161E54] text-base pt-2 md:hidden xs:hidden lg:block">
+            <p className="font-medium text-[#161E54] text-base pt-2 md:hidden xs:hidden lg:block">
               {" "}
               Admirra John
-            </h3>
+            </p>
            <div className="pt-2">
            <DownOutlined
               style={{

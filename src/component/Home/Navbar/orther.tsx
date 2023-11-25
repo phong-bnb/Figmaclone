@@ -7,7 +7,7 @@ function OrtherOfNavbar() {
         </div>
           
           <div className="flex cursor-pointer flex-col py-2 pl-7">
-          <div className="hover:opacity-50 flex gap-[20px] text-center pt-4 pb-4">
+          <button className="hover:opacity-50 flex gap-[20px] text-center pt-4 pb-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -20,9 +20,9 @@ function OrtherOfNavbar() {
                 fill="#B2B2B2"
               />
             </svg>{" "}
-            <h1 className="lg:block md:hidden font-normal text-base text-[#686868]">Department</h1>
-          </div>
-          <div className="hover:opacity-50 flex gap-[20px] text-center pt-4 pb-4">
+            <p className="lg:block md:hidden font-normal text-base text-[#686868]">Department</p>
+          </button>
+          <button className="hover:opacity-50 flex gap-[20px] text-center pt-4 pb-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -35,8 +35,8 @@ function OrtherOfNavbar() {
                 fill="#B2B2B2"
               />
             </svg>{" "}
-            <h1 className="lg:block md:hidden font-normal text-base text-[#686868]">Department</h1>
-          </div>
+            <p className="lg:block md:hidden font-normal text-base text-[#686868]">Department</p>
+          </button>
           </div>
       </div>
     </>

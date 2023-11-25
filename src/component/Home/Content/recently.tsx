@@ -10,9 +10,9 @@ function Recently() {
     <>
       <div className="relative lg:flex lg:flex-col  rounded-xl xs:flex-col md:flex md:flex-row gap-5 lg:px-0 md:w-full xs:w-full xs:px-[20px]">
         <div className="flex flex-col bg-[#121843] md:w-[250px] lg:w-full  rounded-lg ">
-          <h1 className="bg-[#1b204a] pl-[24px] pt-[10px] pr-[10px] pb-[10px] text-lg text-[#FFF] font-normal rounded-lg">
+          <p className="bg-[#1b204a] pl-[24px] pt-[10px] pr-[10px] pb-[10px] text-lg text-[#FFF] font-normal rounded-lg">
             Recently Activity
-          </h1>
+          </p>
           <div className="px-[20px] lg:w-full md:w-[250px]">
             <div className=" gap-[6px] flex   xs:px-0 lg:pr-[50px] flex-col">
               <p className="text-graytext text-xs pt-6">
@@ -30,18 +30,18 @@ function Recently() {
               <p className="text-[#FFF] text-base text-center pt-1">
                 Today you makes 12 Activity
               </p>
-              <div className="bg-[#ff5151] text-center rounded-lg">
-                <h3 className="text-[#FFF] text-sm py-[10px] px-[16px]">
+              <button className="bg-[#ff5151] text-center rounded-lg">
+                <p className="text-[#FFF] text-sm py-[10px] px-[16px]">
                   See All Activity
-                </h3>
-              </div>
+                </p>
+              </button>
             </div>
           </div>
         </div>
         <div className="relative lg:flex lg:flex-col border divide-solid lg:gap-2  rounded-xl">
           <div className=" flex flex-col  overflow-hidden w-full lg:pl-5 lg:pr-5  gap-[10px] xs:pl-5 xs:pr-5">
             <div className="flex pt-[21px] justify-between  xs:gap-16 items-center">
-              <h1 className="text-base font-medium md:w-[250px]">Upcoming Schedule</h1>
+              <p className="text-base font-medium md:w-[250px]">Upcoming Schedule</p>
               <DateTele />
             </div>
             <div className="flex cursor-pointer flex-col gap-[8px] ">
@@ -114,9 +114,9 @@ function Recently() {
           </div>
           {
             !isShow ?  <button className="absolute bottom-0 bg-[white]  w-full" onClick={showAll}>
-            <h1 className="text-[#FF5151] border divide-solid rounded-es-xl rounded-ee-xl p-[10px] text-center font-semibold ">
+            <p className="text-[#FF5151] border divide-solid rounded-es-xl rounded-ee-xl p-[10px] text-center font-semibold ">
               See All Announcement
-            </h1>
+            </p>
           </button> : ""
           }
          
