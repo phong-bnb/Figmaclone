@@ -94,7 +94,7 @@ function Dashbroard() {
               <p className="text-xs text-graytext">96 Women</p>
             </div>
           </div>
-          <div>
+          <div className="">
             <svg
               width="117"
               height="123"

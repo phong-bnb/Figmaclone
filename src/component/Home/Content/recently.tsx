@@ -1,9 +1,14 @@
+import { useState } from "react";
 import DateTele from "../../date";
 import IconOfChedule from "../../icons/PushandEllipIcon";
 function Recently() {
+  const [isShow, setIsShow] = useState(false);
+  const showAll = () => {
+    setIsShow(!isShow);
+  };
   return (
     <>
-      <div className="relative lg:flex lg:flex-col rounded-xl xs:flex-col md:flex md:flex-row gap-5 lg:px-0 md:w-full xs:w-full xs:px-[20px]">
+      <div className="relative lg:flex lg:flex-col  rounded-xl xs:flex-col md:flex md:flex-row gap-5 lg:px-0 md:w-full xs:w-full xs:px-[20px]">
         <div className="flex flex-col bg-[#121843] md:w-[250px] lg:w-full  rounded-lg ">
           <h1 className="bg-[#1b204a] pl-[24px] pt-[10px] pr-[10px] pb-[10px] text-lg text-[#FFF] font-normal rounded-lg">
             Recently Activity
@@ -34,17 +39,17 @@ function Recently() {
           </div>
         </div>
         <div className="relative lg:flex lg:flex-col border divide-solid lg:gap-2  rounded-xl">
-          <div className=" flex flex-col lg:h-[400px] overflow-hidden w-full lg:pl-5 lg:pr-5 md:h-[319px] gap-[10px] xs:pl-5 xs:pr-5">
+          <div className=" flex flex-col  overflow-hidden w-full lg:pl-5 lg:pr-5  gap-[10px] xs:pl-5 xs:pr-5">
             <div className="flex pt-[21px] justify-between  xs:gap-16 items-center">
               <h1 className="text-base font-medium md:w-[250px]">Upcoming Schedule</h1>
               <DateTele />
             </div>
-            <div className="flex flex-col gap-[8px] ">
+            <div className="flex cursor-pointer flex-col gap-[8px] ">
               <p className="text-xs text-graytext">Priority</p>
 
               <div className="flex justify-between rounded-lg">
-                <div className=" flex justify-between bg-[#FAFAFA] w-full  border-[1px] rounded-lg  gap-[29px] pl-[16px] pr-[16px] pt-[12px] pb-[12px]">
-                  <div className="flex flex-col gap-[6px]">
+                <div className=" flex hover:opacity-50 justify-between bg-[#FAFAFA] w-full  border-[1px] rounded-lg  gap-[29px] pl-[16px] pr-[16px] pt-[12px] pb-[12px]">
+                  <div className="flex  flex-col gap-[6px]">
                     <h4 className="font-normal">
                       Review candidate applications
                     </h4>
@@ -56,7 +61,7 @@ function Recently() {
               <p className="text-xs text-graytext">Priority</p>
 
               <div className="flex justify-between rounded-lg">
-                <div className=" flex justify-between bg-[#FAFAFA] w-full  border-[1px] rounded-lg  gap-[29px] pl-[16px] pr-[16px] pt-[12px] pb-[12px]">
+                <div className=" flex hover:opacity-50 justify-between bg-[#FAFAFA] w-full  border-[1px] rounded-lg  gap-[29px] pl-[16px] pr-[16px] pt-[12px] pb-[12px]">
                   <div className="flex flex-col gap-[6px]">
                     <h4 className="font-normal">
                       Review candidate applications
@@ -67,7 +72,7 @@ function Recently() {
                 </div>
               </div>
               <div className="flex justify-between rounded-lg">
-                <div className=" flex justify-between bg-[#FAFAFA] w-full  border-[1px] rounded-lg  gap-[29px] pl-[16px] pr-[16px] pt-[12px] pb-[12px]">
+                <div className=" flex hover:opacity-50 justify-between bg-[#FAFAFA] w-full  border-[1px] rounded-lg  gap-[29px] pl-[16px] pr-[16px] pt-[12px] pb-[12px]">
                   <div className="flex flex-col gap-[6px]">
                     <h4 className="font-normal">
                       Short meeting with product designer from IT Departement
@@ -77,13 +82,44 @@ function Recently() {
                   <IconOfChedule />
                 </div>
               </div>
+              {
+            isShow ? (
+              <div className="flex flex-col gap-[8px]">
+                <div className="flex justify-between rounded-lg">
+                <div className=" flex hover:opacity-50 justify-between bg-[#FAFAFA] w-full  border-[1px] rounded-lg  gap-[29px] pl-[16px] pr-[16px] pt-[12px] pb-[12px]">
+                  <div className="flex flex-col gap-[6px]">
+                    <h4 className="font-normal">
+                      Short meeting with product designer from IT Departement
+                    </h4>
+                    <p className="text-xs text-graytext">Yesterday, 12:30 PM</p>
+                  </div>
+                  <IconOfChedule />
+                </div>
+              </div>
+              <div className="flex justify-between rounded-lg">
+                <div className=" flex hover:opacity-50 justify-between bg-[#FAFAFA] w-full  border-[1px] rounded-lg  gap-[29px] pl-[16px] pr-[16px] pt-[12px] pb-[12px]">
+                  <div className="flex flex-col gap-[6px]">
+                    <h4 className="font-normal">
+                      Short meeting with product designer from IT Departement
+                    </h4>
+                    <p className="text-xs text-graytext">Yesterday, 12:30 PM</p>
+                  </div>
+                  <IconOfChedule />
+                </div>
+              </div>
+              </div>
+            ) : ( "")
+          }
             </div>
           </div>
-          <div className="absolute bottom-0 bg-[white]  w-full">
+          {
+            !isShow ?  <button className="absolute bottom-0 bg-[white]  w-full" onClick={showAll}>
             <h1 className="text-[#FF5151] border divide-solid rounded-es-xl rounded-ee-xl p-[10px] text-center font-semibold ">
               See All Announcement
             </h1>
-          </div>
+          </button> : ""
+          }
+         
         </div>
       </div>
     </>
