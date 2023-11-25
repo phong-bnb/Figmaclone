@@ -1,9 +1,9 @@
 function MainmenuNavbar() {
   return (
     <>
-      <div className=" py-10 md:w-[90px]">
+      <div className=" py-10 cursor-pointer  lg:w-[200px] md:w-[90px]">
         <div className="flex flex-col py-2 pl-7 ">
-        <div className=" flex gap-[20px] text-center pt-4 pb-4">
+        <div className="hover:opacity-50 flex gap-[20px] text-center pt-4 pb-4">
             {" "}
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -20,7 +20,7 @@ function MainmenuNavbar() {
             <h1 className="lg:block md:hidden  font-normal text-base text-[#686868] text-poppins">DashBroad</h1>
           </div>
 
-          <div className=" flex gap-[20px] text-center pt-4 pb-4">
+          <div className="hover:opacity-50 flex gap-[20px] text-center pt-4 pb-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -45,7 +45,7 @@ function MainmenuNavbar() {
             </h1>
           </div>
 
-          <div className=" flex gap-[20px] text-center pt-4 pb-4">
+          <div className="hover:opacity-50 flex gap-[20px] text-center pt-4 pb-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -61,7 +61,7 @@ function MainmenuNavbar() {
             <h1 className=" lg:block md:hidden font-normal text-base text-[#686868]">Schedule</h1>
           </div>
 
-          <div className=" flex gap-[20px] text-center pt-4 pb-4">
+          <div className="hover:opacity-50 flex gap-[20px] text-center pt-4 pb-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="20"
@@ -94,7 +94,7 @@ function MainmenuNavbar() {
             <h1 className="lg:block md:hidden font-normal text-base text-[#686868]">Employee</h1>
           </div>
 
-          <div className=" flex gap-[20px] text-center pt-4 pb-4">
+          <div className="hover:opacity-50 flex gap-[20px] text-center pt-4 pb-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
